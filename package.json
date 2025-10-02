@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "curl -L https://raw.githubusercontent.com/Zunair-arhamsoft/3d-assets/main/Room.obj -o public/model/Room.obj",  
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
